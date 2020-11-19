@@ -1,0 +1,54 @@
+#navstyle{
+    background-color: #252422;
+}
+#footercolor{
+    background-color:#252422;
+    color:#fffcf2 ;
+}
+#footersub{
+    background-color:#403d39 ;
+    color: #fff1e6;
+}
+.carousel-caption p,.carousel-caption h5{
+    color:#fbfefb ;
+}
+.img1 img{
+    height: 100vh;
+}
+.jumbotron,.jumbotron p{
+    font-family:'Comfortaa', cursive ;
+    background-color:#ffffff;
+    color: #61635f;
+    font-size: 1.4rem;
+    
+}
+.jumbotron h1{
+    color: #eb5e28;
+}
+
+
+@media only screen and (max-width:1024px){
+    .img1 img{
+        height:85vh ;
+    }
+}
+@media only screen and (max-width:700px){
+    .img1 img{
+        height:65vh ;
+    }
+}
+@media only screen and (max-width:520px){
+    .img1 img{
+        height:50vh ;
+    }
+}
+@media only screen and (max-width:420px){
+    .img1 img{
+        height:40vh ;
+    }
+}
+@media only screen and (max-width:320px){
+    .img1 img{
+        height:33vh ;
+    }
+}
