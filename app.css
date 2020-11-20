@@ -1,12 +1,27 @@
 #navstyle{
-    background-color: #252422;
+    background-color: #1d3557;
+}
+.navbar-dark .navbar-nav .nav-link {
+    font-family: 'Raleway',sans-serif;
+    color: #f1faee;
+    font-size: 1.2rem;
+    letter-spacing: 0.04rem;
+    padding-left: 0.8em;
+    
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(255,255,255,.60);
+}
+.navbar-dark .navbar-toggler {
+    color: rgba(32, 161, 123, 0.5);
+    border-color: #2a9d8f;
 }
 #footercolor{
-    background-color:#252422;
-    color:#fffcf2 ;
+    background-color:#1d3557;
+    color:#f1faee ;
 }
 #footersub{
-    background-color:#403d39 ;
+    background-color:#457b9d ;
     color: #fff1e6;
 }
 .carousel-caption p,.carousel-caption h5{
@@ -23,7 +38,7 @@
     
 }
 .jumbotron h1{
-    color: #eb5e28;
+    color: #e63946;
 }
 
 
