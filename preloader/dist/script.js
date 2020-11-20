@@ -1,3 +1,4 @@
+
 $(document).ready(function() {
  
   // Fakes the loading setting a timeout
@@ -6,3 +7,4 @@ $(document).ready(function() {
     }, 1000);
  
 });
+
