@@ -1,8 +1,16 @@
-#navstyle{
-    background-color: #1d3557;
+.img1 img{
+    height: 100vh;
 }
+.navcolor{
+    background-color: rgba(17, 36, 68, 0.607);
+}
+.navbar.scrolled {
+    background: #1d3557;
+    transition: background 500ms;
+}
+
 .navbar-dark .navbar-nav .nav-link {
-    font-family: 'Raleway',sans-serif;
+    font-family: 'Monospace',sans-serif;
     color: #f1faee;
     font-size: 1.2rem;
     letter-spacing: 0.04rem;
@@ -16,6 +24,10 @@
     color: rgba(32, 161, 123, 0.5);
     border-color: #2a9d8f;
 }
+.navbar.scrolled {
+    background: #1d3557;
+    transition: background 500ms;
+}
 #footercolor{
     background-color:#1d3557;
     color:#f1faee ;
@@ -27,43 +39,68 @@
 .carousel-caption p,.carousel-caption h5{
     color:#fbfefb ;
 }
-.img1 img{
-    height: 100vh;
-}
+
 .jumbotron,.jumbotron p{
-    font-family:'Comfortaa', cursive ;
+    font-family: 'Special Elite', cursive;
     background-color:#ffffff;
     color: #61635f;
     font-size: 1.4rem;
+    font-weight: 400;
     
 }
 .jumbotron h1{
     color: #e63946;
 }
+section .custom h3 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid rgba(66, 74, 88, 0.32);
+}
+
+.jumbotron hr{
+    margin-top:2em;
+}
+.jumbo2{
+    margin-top: 7rem;
+    background-image: linear-gradient( 109.6deg,  rgba(119, 160, 187, 0.7) 11.2%, rgba(100, 155, 221, 0.644) 91.1% );
+}
+#pstyle{
+font-size: 1.5rem;
+}
+.jumbo3 h1,.jumbo2 li,.jumbo3 h4{
+    font-family: monospace;
+}
+@media only screen and (max-width:460px){
+    .jumbotron p{
+        font-size: 1.5rem;
+    }
+    .jumbotron ul li{
+        font-size: 1.5rem;
+    }
+    .jumbotron h4{
+        font-size: 2rem;
+    }
+}
+
 
 
 @media only screen and (max-width:1024px){
     .img1 img{
-        height:85vh ;
+        height:100vh;
     }
 }
-@media only screen and (max-width:700px){
+@media only screen and (max-width:720px){
     .img1 img{
-        height:65vh ;
+        height:85vh ;
     }
 }
 @media only screen and (max-width:520px){
     .img1 img{
-        height:50vh ;
+        height:75vh ;
     }
 }
 @media only screen and (max-width:420px){
     .img1 img{
-        height:40vh ;
-    }
-}
-@media only screen and (max-width:320px){
-    .img1 img{
-        height:33vh ;
+        height:75vh ;
     }
 }
