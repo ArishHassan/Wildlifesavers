@@ -1,106 +1,134 @@
-.img1 img{
+.img1 img {
     height: 100vh;
 }
-.navcolor{
+
+.navcolor {
     background-color: rgba(17, 36, 68, 0.607);
 }
+
 .navbar.scrolled {
     background: #1d3557;
     transition: background 500ms;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    font-family: 'Monospace',sans-serif;
+    font-family: 'Monospace', sans-serif;
     color: #f1faee;
     font-size: 1.2rem;
     letter-spacing: 0.04rem;
     padding-left: 0.8em;
-    
 }
+
 .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
-    color: rgba(255,255,255,.60);
+    color: rgba(255, 255, 255, .60);
 }
+
 .navbar-dark .navbar-toggler {
     color: rgba(32, 161, 123, 0.5);
     border-color: #2a9d8f;
 }
+
 .navbar.scrolled {
     background: #1d3557;
     transition: background 500ms;
 }
-#footercolor{
-    background-color:#1d3557;
-    color:#f1faee ;
-}
-#footersub{
-    background-color:#457b9d ;
-    color: #fff1e6;
-}
-.carousel-caption p,.carousel-caption h5{
-    color:#fbfefb ;
+
+#footercolor {
+    background-color: #1d3557;
+    color: #f1faee;
 }
 
-.jumbotron,.jumbotron p{
+#footersub {
+    background-color: #457b9d;
+    color: #fff1e6;
+}
+
+.carousel-caption p, .carousel-caption h5 {
+    color: #fbfefb;
+}
+
+.jumbotron, .jumbotron p {
     font-family: 'Special Elite', cursive;
-    background-color:#ffffff;
+    background-color: #ffffff;
     color: #61635f;
     font-size: 1.4rem;
     font-weight: 400;
-    
 }
-.jumbotron h1{
+
+.jumbotron h1 {
     color: #e63946;
 }
+
 section .custom h3 {
     font-size: 2.2rem;
     margin-bottom: 1rem;
     border-bottom: 1px solid rgba(66, 74, 88, 0.32);
 }
 
-.jumbotron hr{
-    margin-top:2em;
+.jumbotron hr {
+    margin-top: 2em;
 }
-.jumbo2{
+
+.jumbo2 {
     margin-top: 7rem;
-    background-image: linear-gradient( 109.6deg,  rgba(119, 160, 187, 0.7) 11.2%, rgba(100, 155, 221, 0.644) 91.1% );
+    background-image: linear-gradient( 109.6deg, rgba(119, 160, 187, 0.7) 11.2%, rgba(100, 155, 221, 0.644) 91.1%);
 }
-#pstyle{
-font-size: 1.5rem;
+
+#pstyle {
+    font-size: 1.5rem;
 }
-.jumbo3 h1,.jumbo2 li,.jumbo3 h4{
-    font-family: monospace;
+
+.jumbo3 h1, .jumbo2 li, .jumbo3 h4 {
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
 }
-@media only screen and (max-width:460px){
-    .jumbotron p{
+.jumbo3 h1{
+    color:#ffc8dd ;
+    font-weight: 500;
+}
+
+.jumbo3 {
+
+    background-image: url("https://images.pexels.com/photos/99575/eye-wild-rhino-animal-99575.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+@media only screen and (max-width:460px) {
+    .jumbotron p {
         font-size: 1.5rem;
     }
-    .jumbotron ul li{
+    .jumbotron ul li {
         font-size: 1.5rem;
     }
-    .jumbotron h4{
+    .jumbotron h4 {
         font-size: 2rem;
     }
 }
 
+@media only screen and (max-width:1024px) {
+    .img1 img {
+        height: 100vh;
+    }
+}
 
+@media only screen and (max-width:720px) {
+    .img1 img {
+        height: 85vh;
+    }
+}
 
-@media only screen and (max-width:1024px){
-    .img1 img{
-        height:100vh;
+@media only screen and (max-width:520px) {
+    .img1 img {
+        height: 75vh;
     }
 }
-@media only screen and (max-width:720px){
-    .img1 img{
-        height:85vh ;
-    }
-}
-@media only screen and (max-width:520px){
-    .img1 img{
-        height:75vh ;
-    }
-}
-@media only screen and (max-width:420px){
-    .img1 img{
-        height:75vh ;
+
+@media only screen and (max-width:420px) {
+    .img1 img {
+        height: 75vh;
     }
 }
